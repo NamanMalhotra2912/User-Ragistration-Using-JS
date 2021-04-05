@@ -11,7 +11,7 @@ readline.question('Please enter your last name', lastName =>{
         console.log("Last Name is : "+lastName);
     }
     else{
-        console.log("!! Error !! \nLast name should contain first capital letter with menimum lenth of 3 characters");
+        console.log("!! Error !! \n Last name should contain first capital letter with menimum lenth of 3 characters");
     }
     readline.close();
 })
